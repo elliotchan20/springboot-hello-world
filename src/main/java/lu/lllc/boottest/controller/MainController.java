@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class MainController {
 	
-	@RequestMapping("/")
+	@RequestMapping("/route-1")
 	public String hello(){
 		return "hello";
 	}
